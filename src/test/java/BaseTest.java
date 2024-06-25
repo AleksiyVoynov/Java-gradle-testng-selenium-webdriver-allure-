@@ -20,7 +20,7 @@ public class BaseTest extends Config implements IHookable {
     @BeforeClass
     @Step("setting up web driver")
     protected void setUp() {
-        Allure.addAttachment("Device Info", browser.toString());
+        Allure.addAttachment("Browser Info", browser.toString());
         browser.webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         webDriver = browser.webDriver;
     }
