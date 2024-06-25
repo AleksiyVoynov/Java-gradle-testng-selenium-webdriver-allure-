@@ -1,16 +1,19 @@
 # Requirements:
 * MacOS Sonoma and above
 * Java 17
-* installed Chrome
-* installed Safari
-* installed FireFox
+* Gradle
+* Chrome
+* Safari
+* FireFox
 
 
 # Guide:
-1. Then run 'GoogleSearchTest'
-   ```plaintext
-   src/test/java/GoogleSearchTest.java
-   
-2. After run, you can generate report put to console next line:
-   ```plaintext
-   allure serve build/allure-results
+
+## To run tests and generate Allure report:
+
+* run `gradle clean`
+* run `gradle test`
+
+## To see a report:
+
+1. run `allure serve build/allure-results `
