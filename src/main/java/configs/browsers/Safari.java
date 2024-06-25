@@ -8,6 +8,7 @@ public class Safari extends Browser {
 
     public Safari(){
         this.webDriver = initChromeDriver();
+        this.name = "Safari";
     }
 
     private WebDriver initChromeDriver() {

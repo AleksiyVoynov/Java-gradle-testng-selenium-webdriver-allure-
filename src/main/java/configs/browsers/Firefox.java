@@ -8,6 +8,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 public class Firefox extends Browser {
     public Firefox() {
         this.webDriver = initChromeDriver();
+        this.name = "Firefox";
     }
 
     private WebDriver initChromeDriver() {

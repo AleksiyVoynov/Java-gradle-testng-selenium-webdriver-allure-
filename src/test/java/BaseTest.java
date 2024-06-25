@@ -1,4 +1,5 @@
 import configs.Config;
+import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
 import org.openqa.selenium.OutputType;
@@ -19,6 +20,7 @@ public class BaseTest extends Config implements IHookable {
     @BeforeClass
     @Step("setting up web driver")
     protected void setUp() {
+        Allure.addAttachment("Device Info", browser.toString());
         browser.webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         webDriver = browser.webDriver;
     }

@@ -11,6 +11,7 @@ public class Chrome extends Browser {
 
     public Chrome(){
         this.webDriver = initChromeDriver();
+        this.name = "Chrome";
     }
 
     private WebDriver initChromeDriver() {
