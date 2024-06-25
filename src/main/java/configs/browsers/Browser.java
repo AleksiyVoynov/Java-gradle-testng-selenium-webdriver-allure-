@@ -10,8 +10,6 @@ public abstract class Browser {
 
     @Override
     public String toString() {
-        return "Browser {" +
-                "name='" + name + '\'' +
-                '}';
+        return name;
     }
 }
