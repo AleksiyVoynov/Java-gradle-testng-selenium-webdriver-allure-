@@ -1,4 +1,4 @@
-package configs.browsers;
+package browsers;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.safari.SafariDriver;
