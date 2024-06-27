@@ -17,6 +17,6 @@ public class GoogleSearchTest extends BaseTest {
 
         googleSearchPage.navigateTo("https://www.google.com");
         googleSearchPage.searchFor(testData);
-        Assert.assertTrue(false);
+        Assert.assertTrue(googleSearchPage.getSearchingResult(testData));
     }
 }
