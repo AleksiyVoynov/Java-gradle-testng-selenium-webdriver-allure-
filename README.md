@@ -11,13 +11,13 @@
 
 ## To run tests and generate Allure report:
 * open terminal
-* cd (path to /SeleniumWebDriverAutotest)
+* cd (path to /SeleniumAutoTestExample)
 * run `gradle clean`
 * run `gradle test`
 
 ## You can run auto test in parallel with Safari, Firefox and Chrome browsers
 * open terminal
-* cd (path to /SeleniumWebDriverAutotest)
+* cd (path to /SeleniumAutoTestExample)
 * run `gradle clean`
 * run `gradle parallelTest`
 
